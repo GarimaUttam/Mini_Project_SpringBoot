@@ -8,10 +8,10 @@ public class HomeController {
 
     @RequestMapping("/")
     public String greet() {
-        return "Garimauttam@google.com";
+        return "";
     }
     @RequestMapping("/about")
     public String about(){
-        return "I will join google as Software engineer.";
+        return "";
     }
 }
