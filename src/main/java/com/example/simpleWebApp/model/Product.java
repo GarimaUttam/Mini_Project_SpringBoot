@@ -1,7 +1,6 @@
 package com.example.simpleWebApp.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+
 import org.springframework.stereotype.Component;
 
 
@@ -43,5 +42,14 @@ public class Product {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "prodId=" + prodId +
+                ", prodName='" + prodName + '\'' +
+                ", price=" + price +
+                '}';
     }
 }
